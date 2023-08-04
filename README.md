@@ -15,6 +15,7 @@
 ### 1) 메인 페이지
 
 |데스크탑|모바일|
-| <img width="1164" alt="스크린샷 2023-08-04 오후 8 01 33" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/11b34549-def9-4fe3-8b28-3e7664ed3d47">| <img width="323" alt="스크린샷 2023-08-04 오후 8 01 50" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/ee04ea3f-6df4-4f6b-a50c-6bf1e2a14bc0">|
+|---|---|
+| <img width="1164" alt="스크린샷 2023-08-04 오후 8 01 33" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/11b34549-def9-4fe3-8b28-3e7664ed3d47"> | <img width="323" alt="스크린샷 2023-08-04 오후 8 01 50" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/ee04ea3f-6df4-4f6b-a50c-6bf1e2a14bc0">|
 
 
