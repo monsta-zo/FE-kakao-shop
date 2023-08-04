@@ -28,7 +28,18 @@
 ### 실행방법
 1. github에서 프로젝트를 다운받는다
 ```
+git clone git@github.com:monsta-zo/FE-kakao-shop.git
+```
 
+2. 필요한 라이브러리, 패키지를 설치한다
+```
+npm install
+```
+
+3. 프로젝트를 실행한다
+```
+npm start
+```
 
 
 ## UI
