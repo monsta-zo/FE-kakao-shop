@@ -18,4 +18,8 @@
 |---|---|
 | <img width="1100" alt="스크린샷 2023-08-04 오후 8 01 33" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/11b34549-def9-4fe3-8b28-3e7664ed3d47"> | <img width="350" alt="스크린샷 2023-08-04 오후 8 01 50" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/ee04ea3f-6df4-4f6b-a50c-6bf1e2a14bc0">|
 
+- 상단 캐러셀 광고
+- Card 디자인 & Skeleton 로딩 구현
+- hover 애니메이션
+- Intersection Observer API & React-Query를 이용한 무한 스크롤
 
