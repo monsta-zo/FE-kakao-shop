@@ -22,6 +22,7 @@
 - Card 디자인 & Skeleton 로딩 구현
 - hover 애니메이션
 - Intersection Observer API & React-Query를 이용한 무한 스크롤
+- Grid를 사용해 반응형 레이아웃 구현
 
 ### 2) 로그인, 회원가입 페이지
 
@@ -32,5 +33,11 @@
 - 모든 항목에 대한 유효성 검사 구현
 - 로그인 정보 Redux + Local Storage 를 통한 상태 관리
 
+### 3) 상품 상세 페이지
 
+|데스크탑|모바일|
+|---|---|
+|<img width="110" alt="스크린샷 2023-08-04 오후 8 18 54" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/8764dfb2-cc55-4df9-90d2-ed20baf8fa4e">|<img width="350" alt="스크린샷 2023-08-04 오후 8 19 20" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/0cc4dc23-7270-4536-af37-9c8065aed400">
+
+- Flex를 사용해 반응형 레이아웃 구현
 
