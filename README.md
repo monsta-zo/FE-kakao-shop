@@ -37,7 +37,7 @@
 
 |데스크탑|모바일|
 |---|---|
-|<img width="110" alt="스크린샷 2023-08-04 오후 8 18 54" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/8764dfb2-cc55-4df9-90d2-ed20baf8fa4e">|<img width="350" alt="스크린샷 2023-08-04 오후 8 19 20" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/0cc4dc23-7270-4536-af37-9c8065aed400">
+|<img width="1100" alt="스크린샷 2023-08-04 오후 8 18 54" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/8764dfb2-cc55-4df9-90d2-ed20baf8fa4e">|<img width="350" alt="스크린샷 2023-08-04 오후 8 19 20" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/0cc4dc23-7270-4536-af37-9c8065aed400">
 
 - Flex를 사용해 반응형 레이아웃 구현
 
