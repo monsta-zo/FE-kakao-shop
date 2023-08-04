@@ -8,6 +8,8 @@
 ### 🛒 [카카오톡 쇼핑하기](https://store.kakao.com/) 서비스 클론코딩 프로젝트
 > 카카오 테크 캠퍼스 1기에서 진행하는 2단계 클론 프로젝트 입니다.
 
+#### [프로젝트 URL](https://user-app.krampoline.com/kf3338e5a9faaa/)
+
 ## UI
 
 > 모든 페이지에는 반응형 디자인이 적용되어있습니다 
