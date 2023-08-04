@@ -10,6 +10,27 @@
 
 #### 🏠 [프로젝트 URL](https://user-app.krampoline.com/kf3338e5a9faaa/)
 
+
+## 배포
+
+### 어플리케이션 구조
+
+> 카카오 크램폴린 IDE를 통한 배포
+
+![스크린샷 2023-08-04 오후 8 43 48](https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/a6ebd90e-a39b-4a6e-b12e-74e723b47cb8)
+
+### 환경변수
+
+| environment | description |
+|---|---|
+|REACT_APP_PATH| kargo 배포 시 사용자에게 할당된 uid |
+
+### 실행방법
+1. github에서 프로젝트를 다운받는다
+```
+
+
+
 ## UI
 
 > 모든 페이지에는 반응형 디자인이 적용되어있습니다 
