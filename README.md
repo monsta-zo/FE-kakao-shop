@@ -61,105 +61,16 @@
 > Atomic Design Patter을 따르기 위해 컴포넌트를 나누어 개발하였습니다.
 ```
 📦src
- ┣ 📂Apollo
- ┃ ┣ 📜Client.tsx
- ┃ ┗ 📜LocalState.tsx
- ┣ 📂components
+ ┣ 📂apis   // API 요청을 위한 Axios 파일들
+ ┣ 📂components // 아토픽 디자인 패턴을 따른 컴포넌트들
  ┃ ┣ 📂atoms
- ┃ ┃ ┣ 📂post
- ┃ ┃ ┃ ┣ 📜Hashtag.tsx
- ┃ ┃ ┃ ┣ 📜HomePostCard.tsx
- ┃ ┃ ┃ ┣ 📜Markdown.tsx
- ┃ ┃ ┃ ┗ 📜SearchPostCard.tsx
- ┃ ┃ ┣ 📂system
- ┃ ┃ ┃ ┣ 📜ErrorBoundary.tsx
- ┃ ┃ ┃ ┣ 📜SkeletonSuspense.tsx
- ┃ ┃ ┃ ┗ 📜Uploader.tsx
- ┃ ┃ ┣ 📂theme
- ┃ ┃ ┃ ┣ 📜Button.tsx
- ┃ ┃ ┃ ┣ 📜DetailText.tsx
- ┃ ┃ ┃ ┣ 📜FatText.tsx
- ┃ ┃ ┃ ┣ 📜Icon.tsx
- ┃ ┃ ┃ ┣ 📜ImageLoader.tsx
- ┃ ┃ ┃ ┣ 📜Input.tsx
- ┃ ┃ ┃ ┗ 📜UnderlineButton.tsx
- ┃ ┃ ┗ 📂user
- ┃ ┃ ┃ ┗ 📜Avatar.tsx
- ┃ ┣ 📂modules
- ┃ ┃ ┣ 📂Header
- ┃ ┃ ┃ ┣ 📜Dropdown.tsx
- ┃ ┃ ┃ ┣ 📜HeaderContainer.tsx
- ┃ ┃ ┃ ┣ 📜HeaderPresenter.tsx
- ┃ ┃ ┃ ┗ 📜index.tsx
- ┃ ┃ ┣ 📂HomePostList
- ┃ ┃ ┃ ┣ 📜HomePostList.tsx
- ┃ ┃ ┃ ┣ 📜HomePostListQueries.tsx
- ┃ ┃ ┃ ┗ 📜index.tsx
- ┃ ┃ ┣ 📂SearchPostList
- ┃ ┃ ┃ ┣ 📜SearchPostList.tsx
- ┃ ┃ ┃ ┣ 📜SearchPostListQueries.tsx
- ┃ ┃ ┃ ┗ 📜index.tsx
- ┃ ┃ ┣ 📂Sidebar
- ┃ ┃ ┃ ┣ 📜Sidebar.tsx
- ┃ ┃ ┃ ┗ 📜index.tsx
- ┃ ┃ ┣ 📂modal
- ┃ ┃ ┃ ┣ 📂Auth
- ┃ ┃ ┃ ┃ ┣ 📜AuthContainer.tsx
- ┃ ┃ ┃ ┃ ┣ 📜AuthPresenter.tsx
- ┃ ┃ ┃ ┃ ┣ 📜AuthQueries.tsx
- ┃ ┃ ┃ ┃ ┗ 📜index.tsx
- ┃ ┃ ┃ ┣ 📜CloseButton.tsx
- ┃ ┃ ┃ ┗ 📜Modal.tsx
- ┃ ┃ ┣ 📜Footer.tsx
- ┃ ┃ ┣ 📜PageTab.tsx
- ┃ ┃ ┗ 📜PostingToolbars.tsx
- ┃ ┗ 📂pages
- ┃ ┃ ┣ 📂PostDetail
- ┃ ┃ ┃ ┣ 📂Comment
- ┃ ┃ ┃ ┃ ┣ 📜Comment.tsx
- ┃ ┃ ┃ ┃ ┗ 📜addCommentQueries.tsx
- ┃ ┃ ┃ ┣ 📜PostDetailContainer.tsx
- ┃ ┃ ┃ ┣ 📜PostDetailPresenter.tsx
- ┃ ┃ ┃ ┣ 📜PostDetailQueries.tsx
- ┃ ┃ ┃ ┗ 📜index.tsx
- ┃ ┃ ┣ 📂UserHome
- ┃ ┃ ┃ ┣ 📜UserHome.tsx
- ┃ ┃ ┃ ┗ 📜index.tsx
- ┃ ┃ ┣ 📂WritePost
- ┃ ┃ ┃ ┣ 📜WritePostContainer.tsx
- ┃ ┃ ┃ ┣ 📜WritePostPresenter.tsx
- ┃ ┃ ┃ ┗ 📜index.tsx
- ┃ ┃ ┣ 📜Auth.tsx
- ┃ ┃ ┣ 📜Home.tsx
- ┃ ┃ ┣ 📜LoginRequired.tsx
- ┃ ┃ ┣ 📜PageNotFound.tsx
- ┃ ┃ ┣ 📜Search.tsx
- ┃ ┃ ┣ 📜SearchHashtag.tsx
- ┃ ┃ ┗ 📜Setting.tsx
- ┣ 📂hooks
- ┃ ┣ 📜useInput.tsx
- ┃ ┗ 📜useOnOutsideClick.tsx
- ┣ 📂models
- ┃ ┣ 📜hashtag.tsx
- ┃ ┣ 📜interfaces.ts
- ┃ ┣ 📜post.tsx
- ┃ ┗ 📜user.tsx
- ┣ 📂shared
- ┃ ┣ 📜App.tsx
- ┃ ┣ 📜Routes.tsx
- ┃ ┗ 📜utils.tsx
- ┣ 📂store
- ┃ ┣ 📂modules
- ┃ ┃ ┣ 📜counter.tsx
- ┃ ┃ ┣ 📜index.tsx
- ┃ ┃ ┣ 📜me.tsx
- ┃ ┃ ┣ 📜posting.tsx
- ┃ ┃ ┗ 📜todos.tsx
- ┃ ┣ 📜configure.tsx
- ┃ ┗ 📜index.tsx
- ┣ 📂styles
- ┃ ┣ 📜GlobalStyles.ts
- ┃ ┣ 📜devices.ts
- ┃ ┗ 📜theme.ts
- ┣ 📜index.tsx
+ ┃ ┣ 📂molecules
+ ┃ ┣ 📂organisms
+ ┃ ┣ 📂templates
+ ┣ 📂constants // 공통적으로 사용되는 상수들
+ ┣ 📂hooks // 공통적으로 사용되는 커스텀 훅들
+ ┣ 📂layouts // 공통적으로 사용되는 페이지 레이아웃들
+ ┣ 📂pages // 페이지들
+ ┣ 📂store // Redux 상태관리 
+ ┣ 📂utils // 공통적으로 사용되는 기타 함수들
 ```
