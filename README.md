@@ -29,6 +29,8 @@
 |---|---|
 |![스크린샷 2023-08-04 오후 8 12 30](https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/d12294a7-ac8e-4869-8215-abdb7cda116c)  | ![스크린샷 2023-08-04 오후 8 13 02](https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/da11e7a7-286a-4e46-a6ba-0f23054ea86a)|
 
+- 모든 항목에 대한 유효성 검사 구현
+- 로그인 정보 Redux + Local Storage 를 통한 상태 관리
 
 
 
