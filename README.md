@@ -39,5 +39,17 @@
 |---|---|
 |<img width="1100" alt="스크린샷 2023-08-04 오후 8 18 54" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/8764dfb2-cc55-4df9-90d2-ed20baf8fa4e">|<img width="350" alt="스크린샷 2023-08-04 오후 8 19 20" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/0cc4dc23-7270-4536-af37-9c8065aed400">
 
+- 각 상품에 대한 옵션 선택 가능
+- 장바구니 담기 기능
 - Flex를 사용해 반응형 레이아웃 구현
+
+### 4) 장바구니 페이지
+|데스크탑|모바일|
+|---|---|
+|![스크린샷 2023-08-04 오후 8 23 10](https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/49d24e46-3b38-4d66-845f-a28de978f84a)|![스크린샷 2023-08-04 오후 8 23 23](https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/9a345670-fb92-4f5e-b7ea-9bc2148fd174)|
+
+- 유저의 모든 장바구니 상품 목록 출력
+- 옵션 수정 및 옵션 삭제 가능
+
+
 
