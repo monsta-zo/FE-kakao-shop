@@ -23,9 +23,12 @@
 - hover 애니메이션
 - Intersection Observer API & React-Query를 이용한 무한 스크롤
 
-### 2) 로그인 페이지
-|데스크탑|모바일|
+### 2) 로그인, 회원가입 페이지
+
+|로그인|회원가입|
 |---|---|
-| <img width="1100" alt="스크린샷 2023-08-04 오후 8 01 33" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/aeda7778-caa3-4a0c-8983-30b4a6e4f6d1"> | <img width="350" alt="스크린샷 2023-08-04 오후 8 01 50" src="https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/28af79ac-9f28-409e-8b4d-56028c6e9772">|
+| ![스크린샷 2023-08-04 오후 8 13 02](https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/da11e7a7-286a-4e46-a6ba-0f23054ea86a) | ![스크린샷 2023-08-04 오후 8 12 30](https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/d12294a7-ac8e-4869-8215-abdb7cda116c)|
+
+
 
 
