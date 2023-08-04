@@ -11,7 +11,7 @@
 #### 🏠 [프로젝트 URL](https://user-app.krampoline.com/kf3338e5a9faaa/)
 
 
-## 배포
+## 💌 배포
 
 ### 어플리케이션 구조
 
@@ -42,7 +42,7 @@ npm start
 ```
 
 
-## UI
+## 🧭 UI
 
 > 모든 페이지에는 반응형 디자인이 적용되어있습니다 
 
@@ -91,7 +91,7 @@ npm start
 |![스크린샷 2023-08-04 오후 8 26 40](https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/52c447f7-8b3d-4e9c-a195-66216aaf4e68)| ![스크린샷 2023-08-04 오후 8 27 19](https://github.com/monsta-zo/FE-kakao-shop/assets/83194164/96268f06-e463-43a1-aad8-6f1c4bd01ef7)|
 
 
-## 디렉토리 구조
+## 🗂️ 디렉토리 구조
 > Atomic Design Patter을 따르기 위해 컴포넌트를 나누어 개발하였습니다.
 ```
 📦src
